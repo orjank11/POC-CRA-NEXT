@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import assets from "../../client/build/asset-manifest.json";
+import styles from '../../styles/Home.module.css'
+import assets from "../../../client/build/asset-manifest.json";
 const Home: NextPage = () => {
   console.log("assets", assets);
   console.log("hello world")
