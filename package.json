@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd ssr && npm run build && cd ../client/ && npm run build",
+    "start": "cd ssr && npm run start"
   },
   "repository": {
     "type": "git",
