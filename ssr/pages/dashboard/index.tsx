@@ -3,8 +3,6 @@ import Head from 'next/head'
 import Script from 'next/script'
 
 const Home: NextPage = (props: any) => {
-//   console.log("assets", assets);
-console.log("props", props);
   const { scripts, styles } = props.manifest.entrypoints.reduce((prev: any, current: string) => {
       if (current.indexOf(".css") > -1) {
           return {
